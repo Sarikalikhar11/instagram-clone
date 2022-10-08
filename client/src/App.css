@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.form-card{
+    background-image: url("https://media.istockphoto.com/photos/abstract-blurred-gradient-bright-mesh-banner-background-textureblue-picture-id1330343437?b=1&k=20&m=1330343437&s=170667a&w=0&h=YjzU_nIGLF_kDGue7V6O0tT6boe3zSHc3tp9CJ_CIRg=");
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    padding-top:30px;
+    
+}
+a{
+    color: black !important;
+}
+.brand-logo,h2{
+    font-family: 'Grand Hotel', cursive;
+}
+.mycard{ 
+    
+   margin-top:70px;
+}
+.auth-card{
+    /* background-color: #a09c9c51; */
+    padding:20px;
+    text-align:center;
+    max-width: 400px;
+    margin:10px auto;   
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid rgb(8, 93, 252) !important;
+     box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+   
+   }
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid rgb(8, 93, 252) !important;
+     box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+.input-field input[type=password]:focus {
+     border-bottom: 1px solid rgb(8, 93, 252) !important;
+     box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px;
+}
+.item{
+    width:30%;
+}
+
+.home-card{ 
+    max-width: 430px;
+    height:max-content;
+    margin:26px auto;
+    /* line-height: 4px; */
+    border-bottom: 1px;
+}
+.card-image{
+    width:fit-content;
+
+}
+.home-card-img{
+    display:flex;
+    
+}
+.home-card-img img{
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    margin-right: 10px;
+}
+.home-card-img h5{
+    font-size: 22px;
+    font-weight:600;
+}
+#toast-container{
+    top:30px !important;
+    right:20px !important;
+    left:auto !important;
+}
+.comment{
+    display:flex;
+    align-items:center;
+}
+.comment input{
+    margin:10px !important;
+    padding:10px;
+}
+.comment button{
+    border:none;
+    background:none;
+    font-weight: bolder;
+    cursor:pointer;
+    color:rgb(72, 135, 253);
+    font-size:18px;
+}
+.profile{
+    display:flex;
+    align-items:center;
+    margin-bottom:25px;
+}
+.profile img{
+    margin-right:20px;
+}
+.profile h5{
+    font-weight: 600;
+}
+.delete{
+    justify-content: flex-end !important;
+    color:red;
+}
+.delete-post{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}

@@ -1,0 +1,1 @@
+export const APIURL = "https://instagram-clone-gg84t4yfm-sarikalikhar11.vercel.app";
