@@ -103,8 +103,8 @@ const UserProfile = () => {
                     <h5>{profile.user.email}</h5>
                     <div style={{display:"flex",justifyContent:"space-between",width:"108%"}}>
                         <h6>{profile.posts.length} posts</h6>
-                        <h6>{profile.user.followers.length} followers</h6>
-                        <h6>{profile.user.following.length} following</h6>                        
+                        <h6>{profile.user.followers} followers</h6>
+                        <h6>{profile.user.following} following</h6>                        
                     </div>
                     
                    {showFollow?
